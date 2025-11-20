@@ -1,0 +1,13 @@
+# --- SADECE COP DOSYALAR (KODLARIM DEGIL) ---
+
+# CLion'un her 'Run' tusuna bastiginda olusturdugu gecici insaat alani
+cmake-build-debug/
+cmake-build-release/
+.idea/
+
+# WSL/Linux derleme artiklari (Bunlar kod degil, makine ciktisi)
+*.o
+*.out
+
+# Kendi proje klasorlerim (Week-1 vs.) BURAYA YAZILMAZ.
+# Onlar Git'e gidecek.

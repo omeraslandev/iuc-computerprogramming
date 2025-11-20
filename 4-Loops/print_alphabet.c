@@ -14,20 +14,3 @@ int main()
 
     return 0;
 }
-
-/*
-1'den 100'e tüm sayıları yazdıran döngü.
-
-int main()
-{
-    int x;
-
-    while(x<=100){
-        printf("x = %d \n", x);
-        x++
-    }
-
-    return 0;
-}
-
-*/
