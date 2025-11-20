@@ -60,7 +60,7 @@ int main() {
     printf("--- 9 CANLI PROGRAM BASLADI ---\n");
 
     // 9 kere sayi isteme dongusu
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i <= 9; i++) {
         printf("\nDeneme %d:\n", i + 1);
 
         // Fonksiyonu cagiriyorum. Bize 1 (true) donerse basardik demektir.
