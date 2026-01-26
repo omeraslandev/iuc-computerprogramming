@@ -1,0 +1,7 @@
+100 OyunPortal 24.98
+200 SarpAtilla 345.67
+300 Garbarius 0.00
+400 Rodinya -47.16
+500 1453Harun 224.62
+600 SelimAbik 30000
+700 KadikoyBogasi 2030
