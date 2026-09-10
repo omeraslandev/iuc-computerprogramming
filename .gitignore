@@ -1,39 +1,17 @@
-# --- Derleme Ciktilari (Object Dosyalari) ---
-# Derleme sirasinda olusan ara dosyalar
-*.o
-*.obj
-*.d
-
-# --- Calistirilabilir Dosyalar (Linux ve Windows) ---
-# Linux'ta varsayilan GCC ciktisi
-*.out
-# Windows uyumlulugu icin (wine vb. kullanirsam)
-*.exe
-# Hata ayiklama sembol klasoru (Mac/Linux)
-*.dSYM/
-
-# --- Ozel Derleme Klasorleri ---
-# Kodlarimi derlerken ciktilari bu klasorlere atmaliyim.
-# Ornek: gcc main.c -o build/program
-build/
+# Visual Studio & C# / .NET
 bin/
-out/
-Debug/
-Release/
+obj/
+.vs/
+*.user
+*.suo
+*.dll
+*.exe
 
-# --- Editor ve IDE Yapilandirmalari ---
-# VSCodium veya VS Code ayar klasoru
+# VS Code & Editörler
 .vscode/
-# Eger CLion veya IntelliJ kullanirsaniz
 .idea/
-*.code-workspace
 
-# --- Gecici Dosyalar ve Sistem Dosyalari ---
-# Ubuntu'da program cokunce olusan bellek dokumu
-core
-# Vim veya Nano editorlerinin gecici yedek dosyalari
-*.swp
-*~
-# Dosya sistemi onizleme dosyalari
+# İşletim sistemi geçici dosyaları
 .DS_Store
-Thumbs.db
+*~
+*.swp
