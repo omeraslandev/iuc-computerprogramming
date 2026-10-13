@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+Console.Clear() bir {{c1::metot (method)}} iken, Console.BackgroundColor bir {{c2::özellik (property)}}'dir.	Konsol İşlemleri
+Console.WriteLine() metni yazdıktan sonra imleci {{c1::alt satıra}} indirir, Console.Write() ise imleci {{c2::aynı satırda}} tutar.	Konsol İşlemleri
+Console.ReadLine() kullanıcı Enter'a basana kadar tüm satırı {{c1::string}} olarak okurken, Console.Read() basılan ilk karakterin {{c2::ASCII (sayısal)}} değerini okur.	Konsol Okuma
+C#'ta yerel bir değişken değeri atanmadan kullanılmaya çalışılırsa {{c1::derleme hatası (CS0165)}} alınır.	Değişken Kuralları
+Alt (iç) bloklar üst scope'taki değişkenlere {{c1::erişebilir}}, ancak dış bloklar iç blokta tanımlanan lokal değişkenlere {{c2::erişemez}}.	Scope / Faaliyet Alanı
+const ile tanımlanan sabitlerin değeri {{c1::derleme zamanında (compile-time)}} belli olmalıdır ve çalışma zamanında {{c2::değiştirilemez}}.	Sabitler (Const)
+Dinamik değişkenlerin toplamı const bir değişkene {{c1::atanamaz}}, ancak iki sabit değerin toplamı const değişkene {{c2::atanabilir}}.	Sabitler (Const)
+Değer tiplerinde new T() kullanımı veya default anahtar kelimesi ilgili tipin {{c1::varsayılan (default)}} değerini verir; int için {{c2::0}}, bool için {{c3::false}}, char için {{c4::'\0'}} atanır.	Varsayılan Değerler
+Küçük veri tipinden büyük veri tipine yapılan, veri kaybı riski olmayan otomatik dönüşümlere {{c1::bilinçsiz (implicit)}} tür dönüşümü denir.	Tür Dönüşümleri
+Büyük veri tipinden küçük veri tipine geçişte veri kaybı riski olduğundan {{c1::bilinçli (explicit)}} tür dönüşümü yapılır ve {{c2::döküm (type casting)}} kullanılır.	Tür Dönüşümleri
+double pi = 3.14; int tamSayi = (int)pi; kodunda döküm işlemi yapıldığında ondalık kısım atılır ve {{c1::veri kaybı}} yaşanır.	Type Casting
+String formundaki sayısal verileri ilgili türe dönüştürmek için türlerin {{c1::Parse()}} metodu veya {{c2::Convert}} sınıfının yöntemleri kullanılır.	Tür Dönüşümleri

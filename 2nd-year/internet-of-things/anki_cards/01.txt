@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+Üretim süreçlerini iyileştirmek, maliyeti azaltmak ve akıllı/karanlık fabrikalar kurmak için kullanılan yapıya {{c1::IIoT (Endüstriyel IoT)}} denir.	Endüstriyel IoT
+IoT cihazlarının Yapay Zekâ teknolojileriyle entegre edilerek çalışmasına {{c1::AIoT}} denir.	Yapay Zekâlı IoT
+İnsan-makine ilişkisini, akıllı şehirleri ve sosyal süreçleri felsefi bir boyutta kapsayan kavrama {{c1::IoE (Her Şeyin İnterneti)}} denir.	Her Şeyin İnterneti
+Otonom araçlar, dronelar ve akıllı trafik yönetim sistemlerini kapsayan ağ yapısına {{c1::IoV (Araçların İnterneti)}} denir.	Araçların İnterneti
+IoT cihazlarının ve altyapılarının bulut platformları (AWS, Azure vb.) üzerinden yönetilmesine {{c1::IoTaaS (Hizmet Olarak IoT)}} denir.	Hizmet Olarak IoT
+Cihazların doğrudan birbirleriyle insan müdahalesi olmadan iletişim kurmasını ifade eden kavrama {{c1::M2M (Machine to Machine)}} denir.	Makineden Makineye
+Akıllı saat, gözlük, yüzük ve bileklik gibi taşınabilir cihazları kapsayan ağ yapısına {{c1::WIoT (Giyilebilir IoT)}} denir.	Giyilebilir IoT
+Enerji altyapısının ve akıllı sayaçların IoT teknolojisiyle desteklendiği sistemlere {{c1::Smart Grid (Akıllı Şebeke)}} denir.	Akıllı Şebeke
+IoT cihazlarının standart web teknolojilerini kullanarak iletişim kurmasına {{c1::Web of Things (Web IoT)}} denir.	Web IoT
+Düşük gecikme süresi (latency) ve yüksek veri genişliği sunarak uzaktan ameliyat gibi kritik işleri mümkün kılan teknoloji {{c1::5G IoT}}'dir.	5G IoT
+Verilerin ana buluta gitmeden kaynağa yakın bir yerde işlenerek ağ trafiğinin azaltılmasına {{c1::Fog Computing (Sis Bilişim)}} denir.	Sis Bilişim
+Verinin doğrudan cihazın kendisinde işlenmesi mantığına {{c1::Edge Computing (Uç Bilişim)}} denir.	Uç Bilişim

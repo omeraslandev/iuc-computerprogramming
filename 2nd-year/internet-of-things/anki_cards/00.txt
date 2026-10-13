@@ -1,0 +1,12 @@
+#separator:tab
+#html:true
+Bilgisayarların ve akıllı cihazların bağlandığı küresel iletişim ağına {{c1::İnternet}} denir.	Altyapı ve sistemler bütünüdür.
+Verinin doğru adrese ulaşmasını sağlayan cihazlara {{c1::Router (Yönlendirici)}} denir.	
+Web siteleri, veritabanı ve e-posta servisleri gibi verinin depolandığı birimlere {{c1::Sunucu}} denir.	
+İnsandan insana veya insan-bilgisayar etkileşimi olmadan veri transferi yapabilen sistemlere {{c1::IoT (Nesnelerin İnterneti)}} denir.	
+IoT Temel Formülü: {{c1::IoT}} = {{c2::Things}} + ({{c3::Sensors, Actuators}}) + {{c4::Internet}}	
+IoT işlem basamaklarında ilk olarak {{c1::sensörlerden veri toplanır}}, ardından {{c2::bilgiye dönüştürülür}}, sonra {{c3::yorumlanır}} ve son olarak {{c4::aksiyon alınır}}.	
+Sağlık takip senaryosunda kalp atışları {{c1::sensörde}} toplanır, ortalama hesaplanır ve {{c2::doktorun monitörüne}} iletilir.	
+Çevreden veri toplayan algılayıcı birimlere {{c1::Sensör}} denir.	
+Sensörlerden alınan verileri kablolu bağlantı ile alıp işleyerek İnternet ağına aktaran birime {{c1::Grup Kontrolörü}} denir.	
+Grup Kontrolörü ile Merkez İstasyon arasında çift yönlü veri iletişimini {{c1::İnternet}} ağı sağlar.

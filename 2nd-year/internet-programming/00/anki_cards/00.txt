@@ -1,0 +1,17 @@
+#separator:tab
+#html:true
+HTML'de en büyük başlık etiketi {{c1::&lt;h1&gt;}}, en küçük başlık etiketi {{c2::&lt;h6&gt;}}'dır.	&lt;hx&gt; başlık serisidir.
+HTML'de paragraf oluşturmak için {{c1::&lt;p&gt;}} etiketi kullanılır.	
+HTML'de alt satıra geçmek (line break) için {{c1::&lt;br&gt;}} etiketi kullanılır.	
+Mouse imleci öğenin üzerine geldiğinde bilgi kutucuğu (tooltip) açmak için {{c1::title}} niteliği kullanılır.	
+Sayfaya yatay çizgi eklemek için {{c1::&lt;hr&gt;}} etiketi kullanılır.	
+Metni kalın yapmak için {{c1::&lt;b&gt;}} veya {{c2::&lt;strong&gt;}} etiketi kullanılır.	
+Metni italik yapmak için {{c1::&lt;i&gt;}} etiketi kullanılır.	
+Metnin altını çizili yapmak için {{c1::&lt;u&gt;}} etiketi kullanılır.	
+Matematiksel üst simge (ör. X³) yapmak için {{c1::&lt;sup&gt;}} etiketi kullanılır.	
+Kimyasal alt simge (ör. H₂O) yapmak için {{c1::&lt;sub&gt;}} etiketi kullanılır.	
+Klasik HTML'de metin boyutu, rengi ve fontu için {{c1::&lt;font&gt;}} etiketi kullanılır.	HTML5'te bunun yerine CSS kullanılır.
+&lt;font&gt; etiketinde boyut için {{c1::size}}, renk için {{c2::color}}, font ailesi için {{c3::face}} niteliği kullanılır.	
+Bağlantı (link) oluşturmak için {{c1::&lt;a&gt;}} etiketi, hedef adresi belirtmek için {{c2::href}} niteliği kullanılır.	
+Bağlantının mevcut sekmede açılması için {{c1::target="_self"}}, yeni sekmede açılması için {{c2::target="_blank"}} kullanılır.	
+Sayfa içi çapa (anchor) oluştururken hedef öğeye {{c1::id}} verilir, yönlendiren bağlantıya {{c2::#}} sembolü eklenir.	Örn: href="#baglanti"

@@ -10,6 +10,7 @@ obj/
 # VS Code & Editörler
 .vscode/
 .idea/
+**/.obsidian/
 
 # İşletim sistemi geçici dosyaları
 .DS_Store

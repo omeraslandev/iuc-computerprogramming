@@ -1,0 +1,13 @@
+#separator:tab
+#html:true
+İşlenmemiş ham gerçeklere {{c1::veri}}, anlam kazandırılmış veriye {{c2::bilgi}} denir.	Temel Kavramlar
+Dosya sisteminde veriler ayrı dosyalarda tutulurken, veritabanında veriler {{c1::merkezi}} olarak saklanır.	Dosya Sistemi vs. Veritabanı
+VTYS (Veritabanı Yönetim Sistemi), veriler üzerinde {{c1::CRUD (Create, Read, Update, Delete)}} işlemlerini gerçekleştirmek için kullanılır.	VTYS / DBMS
+Veritabanı tasarım aşamaları sırasıyla: {{c1::Gereksinim Analizi}}, {{c2::Kavramsal Tasarım}}, {{c3::Mantıksal Tasarım}} ve {{c4::Fiziksel Tasarım}}'dır.	Veritabanı Tasarım Aşamaları
+"Daha az veriyle bu işi nasıl gerçekleştiririm?" sorusu veritabanı tasarımının {{c1::Mantıksal Tasarım}} aşamasında yanıtlanır.	Veritabanı Tasarım Aşamaları
+Ağaç yapısında olan, esnek olmayan ancak basit olan veri modeli {{c1::Sıradüzensel (Hiyerarşik)}} veri modelidir.	Veri Modelleri
+Düğümler arasında çapraz ilişkiler kurulmasına olanak tanıyan veri yapısı {{c1::Ağ Veri Modeli}}'dir.	Veri Modelleri
+İlişkisel veritabanında her tablonun benzersiz bir {{c1::Birincil Anahtarı (Primary Key)}} vardır; tablolar arası ilişkiler ise {{c2::Yabancı Anahtarlar (Foreign Keys)}} ile sağlanır.	İlişkisel Veritabanı Modeli
+İlişkisel veritabanlarında fazla ve tekrarlayan verinin en aza indirilmesi işlemine {{c1::Normalleştirme (Normalization)}} denir.	İlişkisel Veritabanı Modeli
+İlişkisel veritabanlarındaki ACID prensibi {{c1::Atomiklik (Atomicity)}}, {{c2::Tutarlılık (Consistency)}}, {{c3::Yalıtım (Isolation)}} ve {{c4::Dayanıklılık (Durability)}} kavramlarından oluşur.	ACID Prensipleri
+Ses, yüksek çözünürlüklü görsel veya medya gibi satır/sütun yapısına uymayan karmaşık verileri saklamak için {{c1::Nesneye Dayalı Veritabanı Modeli}} kullanılır.	Veri Modelleri

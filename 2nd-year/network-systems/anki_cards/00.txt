@@ -1,0 +1,17 @@
+#separator:Semicolon
+#html:true
+#notetype:Cloze
+#tags column:3
+Veri İletimi, {{c1::gönderici}} tarafından {{c2::iletim ortamına}} aktarılan verinin {{c3::alıcıya}} ulaştırılması olarak tanımlanabilir.;Veri İletimi Tanımı;Veri_İletimi
+İletim ortamı olarak {{c1::kablo (bakır ya da optik)}} ya da {{c2::atmosfer}} kullanılabilir.;İletim Ortamı Türleri;Veri_İletimi
+Veri iletimi {{c1::kısa}} ve {{c2::uzun}} mesafeli olarak ikiye ayrılır.;Mesafe Türleri;Veri_İletimi
+Mesafe arttıkça taşınan sinyalin çeşitli faktörler nedeniyle {{c1::bozulması}} söz konusudur.;Sinyal Bozulması;Veri_İletimi
+Bilginin bir uçtan bir uca taşınması için kullanılan elektriksel niceliğe {{c1::sinyal}} denir.;Sinyal Tanımı;Sinyaller
+Bir sinyal {{c1::3}} ana bileşenle ifade edilir: {{c2::Frekans}}, {{c3::Genlik}} ve {{c4::Faz}}.;Sinyal Bileşenleri;Sinyaller
+Sinyalin bir saniye içerisindeki tekrar sayısına {{c1::Frekans}} denir.;Sinyal Bileşenleri;Sinyaller
+Sinyalin volt cinsinden elektriksel büyüklüğüne {{c1::Genlik}} denir.;Sinyal Bileşenleri;Sinyaller
+Belirli bir referans açısına göre sinyalin konumuna {{c1::Faz}} denir.;Sinyal Bileşenleri;Sinyaller
+Analog sinyal {{c1::doğal kaynaklardan}} üretilmektedir.;Sinyal Çeşitleri;Sinyaller
+Dijital (Digital) sinyal {{c1::bir elektronik devre}} tarafından üretilir.;Sinyal Çeşitleri;Sinyaller
+Dijital sinyaller analogdan farklı olarak belirli sembollerle ({{c1::$0$}} ve {{c2::$1$}} olmak üzere) ifade edilir.;Dijital Sinyaller;Sinyaller
+Dijital sinyallerde kullanılan $0$ ve $1$ sembollerinin her birine {{c1::BİT (Bit)}} denir.;Bit Tanımı;Sinyaller

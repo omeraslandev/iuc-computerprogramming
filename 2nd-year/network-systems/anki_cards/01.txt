@@ -1,0 +1,28 @@
+#separator:Semicolon
+#html:true
+#notetype:Cloze
+#tags column:3
+Sinyaller iletim ortamında taşınırken {{c1::gürültü}}, {{c2::gecikme}} ve {{c3::zayıflama}} faktörlerinden dolayı bozulurlar.;Sinyal İletimi Bozulma Faktörleri;Sinyal_Iletimi
+Sinyalin bozulma oranı, {{c1::frekans}} ve {{c2::genlik}} değerleriyle yakından ilişkilidir.;Sinyal Bozulma Faktörleri;Sinyal_Iletimi
+Sinyalin genliğini (elektriksel seviyesini) düşürmesi/düşmesi olayına {{c1::Zayıflama}} denir.;Zayıflama Tanımı;Sinyal_Iletimi
+Sinyalin zayıflamasına iletim ortamının {{c1::direnci (empedansı)}} sebep olur.;Zayıflama Nedenleri;Sinyal_Iletimi
+Zayıflamadan kaynaklanan sorunları çözmek için alıcı ile gönderici arasına {{c1::sinyal güçlendirici}} ya da {{c2::yineleyici (tekrarlayıcı)}} donanımlar yerleştirilir.;Zayıflama Çözümü;Sinyal_Iletimi
+Güçlendirici donanımların çok fazla kullanılması, gerçek sinyalle birlikte {{c1::gürültünün}} genliğini de yükselttiği için hatalı bitlere yol açar.;Zayıflama Problemleri;Sinyal_Iletimi
+Sinyalin farklı frekans bileşenlerinin alıcıya farklı zamanlarda ulaşmasına {{c1::Gecikme}} denir.;Gecikme Tanımı;Sinyal_Iletimi
+Farklı frekans bileşenlerinin gecikmesi, bir iletim ortamından aktarılabilecek maksimum {{c1::bit oranını}} kısıtlayan en büyük faktörlerdendir.;Gecikme Etkisi;Sinyal_Iletimi
+Kablo çiftlerinin birbirlerini etkilemesinden kaynaklanan gürültü türüne {{c1::Crosstalk}} denir.;Gürültü Çeşitleri;Sinyal_Iletimi
+Bir iletim hattının kalitesi {{c1::Sinyal / Gürültü (SNR)}} oranıyla ifade edilir.;SNR Tanımı;Iletim_Kalitesi
+$\text{SNR} = \frac{\text{{{c1::Sinyal Gücü}}}}{\text{{{c2::Gürültü Gücü}}}}}$;SNR Formülü;Iletim_Kalitesi
+SNR (Signal to Noise Ratio) değeri ne kadar {{c1::yüksek}} olursa, hat o kadar kaliteli demektir.;SNR Değerlendirmesi;Iletim_Kalitesi
+Hatalı gelen bitlerin tüm veri içindeki miktarını ifade etmek için {{c1::BER (Bit Error Rate)}} parametresi kullanılır.;BER Tanımı;Iletim_Kalitesi
+BER (Bit Error Rate) değeri ne kadar {{c1::düşük}} olursa sistem o kadar başarılıdır.;BER Değerlendirmesi;Iletim_Kalitesi
+Sayısal ya da analog bir sinyalin iletim ortamından taşınabilmesi için başka bir sinyalin üzerine yüklenmesi işlemine {{c1::Modülasyon}} denir.;Modülasyon Tanımı;Modulasyon
+Modülasyon yapısında taşınmak istenen veriye {{c1::Bilgi Sinyali}}, yüksek ve sabit frekanslı sinyale {{c2::Taşıyıcı Sinyal}} denir.;Modülasyon Yapısı;Modulasyon
+Sinyallerin farklı taşıyıcı frekanslarla bir iletim ortamına aktarılmasına {{c1::Çoklama (Multiplexing)}} denir.;Çoklama Tanımı;Modulasyon
+Frekans Bölümlü Çoklama tekniğinin kısaltması {{c1::FDM (Frequency Division Multiplexing)}} olarak adlandırılır.;FDM Tanımı;Modulasyon
+Atmosfer ortamında en çok kullanılan analog modülasyon teknikleri {{c1::AM (Genlik Modülasyonu)}} ve {{c2::FM (Frekans Modülasyonu)}}'dir.;Analog Modülasyon Teknikleri;Modulasyon
+Sayısal sinyal taşıması için geliştirilen modülasyon tekniklerine {{c1::ASK}}, {{c2::FSK}} ve {{c3::QAM}} örnek verilebilir.;Sayısal Modülasyon Teknikleri;Modulasyon
+Veri kodlamada modülasyondan farklı olarak iletim ortamındaki sinyal de {{c1::sayısal (dijital)}} bir sinyaldir.;Veri Kodlama Özelliği;Kodlama
+Ethernet teknolojisinde {{c1::Manchester}} kodlama yöntemi kullanılır.;Kodlama Yöntemleri;Kodlama
+Bir iletim ortamında taşınabilecek maksimum veri oranı, taşıyıcı sinyalin {{c1::frekans}} değerine bağlıdır.;Band Genişliği ve İletim Kapasitesi;Band_Genisligi
+Teknik bir terim olarak kullanılan Ban**d** kelimesi mutlaka {{c1::'d'}} harfi ile biter.;Band İfadesi;Band_Genisligi
