@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>01 - IFrame ve Hedef Pencere</title>
+</head>
+<body>
+    <h2>IFrame (İç Çerçeve) Alıştırması</h2>
+
+    <!-- 
+      iframe: Sayfa içine başka bir HTML sayfasını pencereli olarak gömer.
+      name: İlgili pencereye bir isim verir, böylece bağlantılar (<a>) burayı hedef alabilir.
+    -->
+    <iframe src="01_iframe_icerigi.html" name="_iframedeneme" width="900" height="400"></iframe> 
+    <br><br>
+
+    <!-- target="_iframedeneme" sayesinde tıklanan link yukarıdaki iframe içerisinde açılır -->
+    <a href="01_iframe_icerigi.html" target="_iframedeneme">IFrame İçeriğini Değiştir / Yükle</a>
+
+    <hr>
+    <a href="index.html">← Ana Menüye Dön</a>
+</body>
+</html>

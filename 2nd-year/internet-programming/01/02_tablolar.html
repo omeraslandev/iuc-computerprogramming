@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>02 - Tablolar ve Hücre Birleştirme</title>
+</head>
+<body>
+    <h2>Tablo (Table) Alıştırması</h2>
+
+    <!-- 
+      border: Tablo kenarlık kalınlığı
+      bgcolor: Tablo arka plan rengi (Görsel işlemler modern HTML'de CSS ile yapılır)
+      cellspacing: Hücreler arasındaki dış boşluk
+      cellpadding: Hücre kenarı ile hücre içindeki veri arasındaki iç boşluk
+    -->
+    <table border="10" bgcolor="red" cellspacing="20" cellpadding="20">
+        
+        <!-- 1. Satır -->
+        <tr>
+            <!-- <th>Tablo Başlığı</th> istenirse kalın ve ortalı başlık hücresi koyar -->
+            <td>Hücre 1 (Satır 1, Sütun 1)</td>
+            <td>Hücre 2 (Satır 1, Sütun 2)</td>
+            <td>Hücre 3 (Satır 1, Sütun 3)</td>
+        </tr>
+        
+        <!-- 2. Satır -->
+        <tr>
+            <!-- rowspan="2": İki satırı yukarıdan aşağıya doğru birleştirir -->
+            <td rowspan="2">Hücre 4 (Satır 2 ve 3 Birleşik)</td>
+            
+            <!-- colspan="2": İki sütunu soldan sağa doğru birleştirir -->
+            <td colspan="2">
+                <!-- Tablo hücresinin içerisine liste eklenmesi -->
+                <dl>
+                    <dd>Item X</dd>
+                    <dd>Item Y</dd>
+                </dl>
+            </td>
+        </tr>
+        
+        <!-- 3. Satır -->
+        <tr>
+            <!-- İlk sütun yukarıdaki rowspan ile birleştiği için burada doğrudan 2 sütunluk colspan kullanılır -->
+            <td colspan="2">Hücre 6 (Sütun 2 ve 3 Birleşik)</td>
+        </tr>
+
+    </table>
+
+    <hr>
+    <a href="index.html">← Ana Menüye Dön</a>
+</body>
+</html>
