@@ -14,36 +14,6 @@ Selamlar! Ben bir İÜC Bilgisayar Programcılığı öğrencisiyim. Bu depoyu o
 
 ---
 
-## 📚 İçerik ve Müfredat
-
-Şu an için depoda **1. Yarıyıl** kapsamında Dr. Öğr. Üyesi Yasemin Poyraz Koçak hocamdan aldığım **"Programlamaya Giriş ve Algoritmalar"** dersindeki pratikler yer almaktadır.
-
-### 🛠️ Kapsanan Konular:
-
-* Değişkenler ve Veri Tipleri
-* Döngüler (Loops) ve Karar Yapıları
-* Diziler (Arrays) ve Çok Boyutlu Diziler
-* **Pointerlar (İşaretçiler):** Bellek yönetimi ve adres aritmetiği üzerine derinlemesine örnekler
-* **Dosya İşlemleri:** Veri okuma, yazma ve dosya işaretçileri
-
----
-
-## 📂 Dosya Yapısı
-
-Depo, ders konularına göre klasörlenmiş bir hiyerarşiye sahiptir:
-
-```text
-starting-programming-and-algorithms/
-├── 1-hello-world/
-├── 4-loops/
-├── 8-files/
-├── 10-pointers/
-└── ...
-
-```
-
----
-
 ## 🤝 Katkıda Bulun (Contribution)
 
 Bu depo hepimize açık!
