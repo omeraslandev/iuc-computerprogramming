@@ -1,0 +1,36 @@
+# Header: Text	Extra
+"BAND" kelimesi {{c1::"D"}} harfi ile biter.	Türkçe okunuşunda T gibi algılansa da yazımda D kullanılır.
+Bir iletişim kanalının veya ortamının kapasitesini ifade etmek için {{c1::Band Genişliği}} kavramı kullanılır.	
+Analog sistemlerde iletişim kanalının kapasitesi {{c1::Hertz (Hz)}} cinsinden ifade edilir.	
+Sayısal (dijital) sinyallerde iletişim kapasitesi {{c1::bps (bit per second)}} cinsinden ifade edilir.	
+Bir ağ sistemi en az 3 temel bileşenden oluşur: {{c1::Gönderici donanımı}}, {{c2::Alıcı donanımı}} ve {{c3::İletişim ortamı}}.	
+Bir iletişim sisteminin toplam kapasitesi, bileşenler arasında {{c1::en küçük band genişliğine sahip olan}} bileşeninki kadardır.	Zincirin en zayıf halkası kuralı geçerlidir.
+Verinin saklanabilme kapasitesi {{c1::Byte}} cinsinden, taşınabilme kapasitesi ise {{c2::bit}} cinsinden ifade edilir.	
+Saklama kapasitesi birimi olan Byte ile taşıma kapasitesi birimi olan bit arasında {{c1::8}} kat fark vardır.	1 Byte = 8 bit
+Kapasite birimlerinin yazımında Byte kelimesi için {{c1::büyük "B"}} harfi, bit kelimesi için {{c2::küçük "b"}} harfi kullanılır.	Örn: MB vs Mbps
+Byte, {{c1::8}} tane bitin bir araya gelmesinden oluşan ve anlam taşıyan bilgi birimidir.	
+ASCII kod sisteminde 2⁸ = {{c1::256}} farklı karakter temsil edilebilir ve her karakter {{c2::1 Byte}} yer kaplar.	
+"Elma" kelimesi bellekte {{c1::4 Byte}} yani {{c2::32 bit}} yer işgal eder.	Her harf 1 Byte (8 bit) olduğu için 4 × 8 = 32 bit.
+1 KB (Kilobayt) verinin standart matematiksel karşılığı {{c1::1024 Byte}}'tır.	
+1 MB (Megabayt) verinin standart matematiksel karşılığı {{c1::1024 KB}}'dır.	
+1 GB (Gigabayt) verinin standart matematiksel karşılığı {{c1::1024 MB}}'dır.	
+1 TB (Terabayt) verinin standart matematiksel karşılığı {{c1::1024 GB}}'dır.	
+Bilgisayar biliminde ikili sistemden dolayı 1 KB = 1024 Byte'tır; ancak uygulamada hesaplama kolaylığı için bazı durumlarda {{c1::1000}} kabul edilir.	
+240 MB büyüklüğündeki bir dosya 4 dakikada aktarılıyorsa, 4 dakika = {{c1::240}} saniyedir.	
+240 MB verinin Byte cinsinden değeri {{c1::240.000.000 Byte}}'tır.	
+240.000.000 Byte verinin bit cinsinden karşılığı 240.000.000 × 8 = {{c1::1.920.000.000 bit}}'tir.	
+1.920.000.000 bit veriyi 240 saniyede aktaran sistemin saniyelik aktarım hızı {{c1::8.000.000 bit/sn}} yani {{c2::8 Mbps}}'dir.	Hesaplama: 1.920.000.000 / 240 = 8.000.000 bit/sn.
+İletişimin tek bir kanaldan yapıldığı türe {{c1::temel band (baseband)}}, birden çok kanaldan yapıldığı türe ise {{c2::geniş band (broadband)}} denir.	
+Temel band (baseband) iletim ortamında {{c1::tek bir}} frekans bandı kullanılır ve iletim kapasitesi tamamen tek bir kanal içindir.	
+Temel band (baseband) veri iletim yöntemini kullanan protokole örnek {{c1::Ethernet}}'tir.	
+Geniş band (broadband) iletim ortamında {{c1::birden fazla}} frekans bandı kullanılır ve ortam kapasitesi farklı kanallara paylaştırılır.	
+Aynı iletim ortamında hem ses hem de İnternet verisinin farklı bandlardan iletilmesine imkan tanıyan geniş band teknolojisi {{c1::ADSL}}'dir.	
+Bir iletim ortamında birden fazla iletişim kanalı oluşturmak için kullanılan teknolojiye {{c1::Kanal Çoklama (Multiplexing)}} denir.	
+Çoklama (Multiplexing) teknikleri temel olarak {{c1::FDM (Frequency Division Multiplexing)}} ve {{c2::TDM (Time Division Multiplexing)}} olmak üzere ikiye ayrılır.	
+İletim ortamının farklı frekans bandlarını kullanarak farklı iletişim kanalları oluşturan çoklama tekniğine {{c1::FDM (Frekans Bölümlemeli Çoklama)}} denir.	
+Atmosferde aynı anda birden fazla yayının yapılabilmesi {{c1::FDM}} çoklama tekniğine bir örnektir.	Frequency Division Multiplexing
+Tek bir koaksiyel kablo üzerinden birçok TV yayınının evlere ulaştırılması {{c1::FDM}} çoklama tekniği ile sağlanır.	
+İki telli telefon hatları üzerinden aynı anda İnternet ve telefon iletişiminin yapılabilmesi {{c1::FDM}} tekniği sayesindedir.	
+FDM tekniği köken olarak {{c1::analog}} iletişim yöntemi olmasına rağmen günümüzde {{c2::geniş band veri iletişiminde}} de kullanılır.	
+Farklı zamanlarda, farklı uç sistemlere ait çerçeveleri (frame) taşıyarak tek bir hat üzerinden kanal oluşturan teknik {{c1::TDM (Time Division Multiplexing)}}'dir.	
+TDM (Time Division Multiplexing) bir {{c1::temel band (baseband)}} veri iletim yöntemidir.	
