@@ -1,0 +1,26 @@
+#separator:tab
+#html:false
+Bilgisayar sisteminin temel formülü: {{c1::Yazılım}} + {{c2::Donanım}} = Bilgisayar şeklindedir.	Temel Bilgisayar Formülü
+Kullanıcı ile bilgisayar donanımı arasında iletişimi ve etkileşimi sağlayan temel sistem yazılımına {{c1::işletim sistemi (operating system)}} denir.	İşletim Sistemi Tanımı
+İşletim sisteminin katmanlı mimarisinde kullanıcılar ile işletim sistemi arasında {{c1::Sistem ve Uygulama Programları (Derleyici, Assembler, Metin Düzenleyici vb.)}} yer alır.	İşletim Sistemi Katmanlı Mimarisi
+İşletim sistemlerinin ilk dönemlerinde komutlar ve veriler sisteme {{c1::delikli kartlar}} ve {{c2::delikli kâğıt şeritler}} ile yüklenmekteydi.	Tarihsel Gelişim - Veri Girişi
+İlk hesaplama sistemlerinde donanım bileşeni olarak {{c1::elektronik tüpler (vakum tüpleri)}} kullanılmıştır.	Tarihsel Gelişim - Vakum Tüpleri
+Elektronik tüplerden sonra bilgisayar sistemlerinin küçülmesini ve hızlanmasını sağlayan teknolojik gelişme {{c1::transistörler}} ve {{c2::Entegre Devrelerin (Integrated Circuits)}} kullanılmasıdır.	Tarihsel Gelişim - Entegre Devreler
+Ana bellekte birden fazla programın aynı anda tutulması ve bir program I/O beklerken CPU'nun bellekteki diğer programa geçmesi ilkesine {{c1::Çoklu Programlama (Multiprogramming)}} denir.	Çoklu Programlama (Multiprogramming)
+İşlemci süresinin programlar arasında zaman paylaşımlı olarak bölüştürülmesi ilkesine {{c1::Çok Görevlilik (Multitasking)}} denir.	Çok Görevlilik (Multitasking)
+PDP-11 bilgisayar mimarisi dönemin öne çıkan sistemlerini üreten {{c1::DEC (Digital Equipment Corporation)}} tarafından geliştirilmiştir.	DEC ve PDP-11
+UNIX işletim sistemi ilk olarak {{c1::AT&T Bell Laboratuvarları}}'nda geliştirilmiştir.	UNIX Menşei
+Andrew S. Tanenbaum tarafından eğitim amacıyla geliştirilen küçük boyutlu UNIX türevi işletim sistemine {{c1::MINIX}} denir.	MINIX
+California Üniversitesi, Berkeley tarafından geliştirilen UNIX türevi işletim sistemine {{c1::BSD (Berkeley Software Distribution)}} denir.	BSD
+Taşınabilir işletim sistemi arayüzü uyumluluğunu sağlamak amacıyla oluşturulan standartlara {{c1::POSIX (IEEE POSIX)}} denir.	POSIX Standartları
+1980'lerde UNIX işletim sistemi {{c1::C dili}} kullanılarak yeniden yazılmış ve yaygınlaşmıştır.	UNIX ve C Dili
+Grafik Kullanıcı Arayüzü (GUI) odaklı masaüstü işletim sistemleri alanında ilk büyük ticari başarıyı {{c1::Macintosh (Apple)}} sağlamıştır.	Masaüstü İşletim Sistemleri - Macintosh
+Ana bilgisayarlarda (Mainframe) işlerin gruplanıp sırayla çalıştırıldığı yapılara {{c1::Toplu İş Sistemleri (Batch Systems)}} denir.	Mainframe - Toplu İş Sistemleri
+Yüksek miktarda anlık veri hareketini yöneten sistemlere {{c1::İşlem Sistemleri (Transaction Processing Systems)}} denir.	Mainframe - İşlem Sistemleri
+Birden fazla kullanıcının eş zamanlı olarak sistem kaynaklarını paylaştığı çalışma modeline {{c1::Zaman Paylaşımlı Çalışma (Time-Sharing Systems)}} denir.	Mainframe - Zaman Paylaşımlı Çalışma
+Aynı anda birden fazla istemciye hizmet veren UNIX, Linux ve Windows Server gibi sistemler {{c1::Sunucu (Server)}} işletim sistemleridir.	Sunucu İşletim Sistemleri
+Birden fazla işlemcinin aynı bellek ve veri alanını paylaşarak yüksek işlem gücü sunduğu sistemlere {{c1::Paralel Sistemler}} denir.	Paralel Sistemler
+Fiziksel olarak ayrı konumlardaki sistemlerin bir ağ üzerinden haberleşerek tek bir sistem gibi çalışmasına {{c1::Dağıtık Sistemler}} denir.	Dağıtık Sistemler
+Tepki sürelerinin ve zaman kısıtlarının kesin sınırlar içerdiği kritik sistemlere {{c1::Gerçek Zamanlı İşletim Sistemleri (RTOS)}} denir.	Gerçek Zamanlı İşletim Sistemleri (RTOS)
+Belirli ve kısıtlı bir görevi yürütmek üzere tasarlanmış, genellikle küçük bellek kapasiteli ve donanım kartlarına entegre sistemlere {{c1::Gömülü İşletim Sistemleri (Embedded Systems)}} denir.	Gömülü İşletim Sistemleri
+Akıllı kartlar, mikrodenetleyiciler, PalmOS, Windows CE ve Symbian {{c1::Gömülü İşletim Sistemlerine (Embedded Systems)}} örnektir.	Gömülü Sistem Örnekleri

@@ -1,0 +1,30 @@
+#separator:tab
+#html:false
+Bilgisayar sistemini oluşturan 4 temel bileşen {{c1::Donanım (Hardware)}}, {{c2::İşletim Sistemi (OS)}}, {{c3::Uygulamalar (Apps)}} ve {{c4::Kullanıcılardır (Users)}}.	Sistem Bileşenleri
+Kullanıcı ile donanım arasındaki etkileşim akışı: Kullanıcı ↔ {{c1::Uygulamalar}} ↔ {{c2::İşletim Sistemi}} ↔ {{c3::Donanım}} şeklindedir.	Kullanıcı-Donanım Etkileşimi
+CPU (İşlemci) ve Ana Kart (Motherboard) donanımın {{c1::Sistem Ünitesi (System Unit)}} kısmında yer alır.	Donanım Üniteleri
+Klavye ve Fare donanım sınıflandırmasında {{c1::Giriş Ünitesi}} içinde yer alır.	Giriş Üniteleri
+Ekran (Monitör) ve Yazıcı donanım sınıflandırmasında {{c1::Çıkış Ünitesi}} içinde yer alır.	Çıkış Üniteleri
+Sabit Disk (Hard Disk) ve Flash Disk donanım sınıflandırmasında {{c1::Depolama Ünitesi}} içinde yer alır.	Depolama Üniteleri
+Yazılımlar temel olarak {{c1::İşletim Sistemi (OS)}}, {{c2::Programlama Dilleri}}, {{c3::Sürücüler (Driver)}} ve {{c4::BIOS}} olarak sınıflandırılır.	Yazılım Sınıflandırması
+Programlama dilleri çeviricileri {{c1::Derleyici}}, {{c2::Yorumlayıcı}} ve {{c3::Çevirici (Assembler)}} olarak üç ana gruba ayrılır.	Programlama Dilleri Çeviricileri
+CPU (İşlemci) komut ve talimatları yalnızca {{c1::RAM (Ana Bellek)}} üzerinden yükleyebilir.	İşlemci Bellek Erişim İlkesi
+İşlemciyi besleme akışı: (CPU) ↔ {{c1::RAM / Ana Bellek}} ↔ {{c2::Sabit Disk / Depolama}} şeklindedir.	İşlemci Besleme Akışı
+Salt okunur bellek tipi olan ve statik programların saklandığı belleğe {{c1::ROM (Read-Only Memory)}} denir.	ROM Tanımı
+Elektrikle silinebilir ve yeniden programlanabilir salt okunur belleğe {{c1::EEPROM}} denir.	EEPROM Tanımı
+Depolama hiyerarşisinin en tepesinde yer alan en hızlı bellek birimi {{c1::Registers (Yazmaçlar)}} birimidir.	Depolama Hiyerarşisi - En Üst Katman
+Depolama hiyerarşisi piramidinde Registers'tan sonra gelen ve RAM'den daha hızlı olan katman {{c1::Cache (Önbellek)}} katmanıdır.	Depolama Hiyerarşisi - Cache
+Depolama hiyerarşisinde yukarıdan aşağıya doğru inildikçe bit başına maliyet {{c1::düşer}}, depolama kapasitesi {{c2::artar}}, erişim hızı {{c3::azalır (yavaşlar)}}.	Depolama Hiyerarşisi Kuralları - Aşağı İnildikçe
+Depolama hiyerarşisinde aşağıdan yukarıya doğru çıkıldıkça bit başına maliyet {{c1::artar}}, erişim hızı {{c2::artar}}, depolama kapasitesi {{c3::azalır}}.	Depolama Hiyerarşisi Kuralları - Yukarı Çıkıldıkça
+C dilinde veya sistemde eş zamanlı olarak işlenen her bir program bölümüne {{c1::Thread (İş Parçacığı)}} denir.	Thread Tanımı
+Çoklu kullanıcı desteğine {{c1::Multiuser}}, çoklu işlemci kullanımına {{c2::Multiprocessing}}, çoklu görev çalıştırmaya {{c3::Multitasking}}, çoklu iş parçacığı çalıştırmaya ise {{c4::Multithreading}} denir.	Sistem Mimarisi Kavramları
+Katmanlı sistem yapısı yukarıdan aşağıya: Kullanıcı ↔ {{c1::Kabuk (Shell)}} ↔ {{c2::Sistem Çağrıları (System Calls)}} ↔ {{c3::Çekirdek (Kernel)}} ↔ {{c4::Donanım (Hardware)}} şeklindedir.	Katmanlı Sistem Yapısı
+Kullanıcı ile işletim sistemi arasındaki komut arayüzünü sağlayan yapıya {{c1::Shell (Kabuk)}} denir.	Shell Tanımı
+Yaygın kullanılan Shell (Kabuk) türleri {{c1::sh}}, {{c2::csh}}, {{c3::ksh}}, {{c4::bash}} ve {{c5::zsh}}'tir.	Shell Türleri
+Belleği yönetmek, kaynakları yönetmek, interrupt'ları kullanmak, hataları kontrol etmek ve dosya sistemini çalıştırmak {{c1::Çekirdek (Kernel)}} biriminin görevlerindendir.	Kernel Görevleri
+İşletim sisteminde verilerin tutulduğu kümelere {{c1::dosya (kütük)}}, dosyaların gruplandığı yapılara {{c2::klasör (dizin)}}, bunların saklandığı fiziksel/anlamsal ortamlara ise {{c3::sürücü}} denir.	Dosya Yönetimi Kavramları
+İşletim sisteminde con, aux, prn, nul ile com0-com9 arası isimler dosya veya klasör adı olarak {{c1::kullanılamaz (ayrılmış isimlerdir)}}.	Dosya İsimlendirme Kuralları
+İşletim sisteminin iki temel görevi {{c1::Yardımcı Programları Destekleme}} ve {{c2::Bilgisayar Donanımını Kontrol Etme}}'dir.	İşletim Sistemi Görevleri
+Basic Input/Output System anlamına gelen BIOS, {{c1::EPROM}} yongası üzerindeki {{c2::ROM}} bellekte saklanır.	BIOS Yapısı
+Donanım ile yazılım arasındaki seviye hiyerarşisinde makine dili ile fiziksel birimler arasında yer alan ve komut setini işleten katmana {{c1::Mikroprogram (Microprogram)}} denir.	Mikroprogram Katmanı
+Donanım ile yazılım seviyesi arasındaki donanım sınırını {{c1::Makine Dili (Machine Language)}} katmanı oluşturur.	Donanım Sınırı Katmanı

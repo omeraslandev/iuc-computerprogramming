@@ -1,14 +1,34 @@
 #separator:tab
-#html:true
-Console.Clear() bir {{c1::metot (method)}} iken, Console.BackgroundColor bir {{c2::özellik (property)}}'dir.	Konsol İşlemleri
-Console.WriteLine() metni yazdıktan sonra imleci {{c1::alt satıra}} indirir, Console.Write() ise imleci {{c2::aynı satırda}} tutar.	Konsol İşlemleri
-Console.ReadLine() kullanıcı Enter'a basana kadar tüm satırı {{c1::string}} olarak okurken, Console.Read() basılan ilk karakterin {{c2::ASCII (sayısal)}} değerini okur.	Konsol Okuma
-C#'ta yerel bir değişken değeri atanmadan kullanılmaya çalışılırsa {{c1::derleme hatası (CS0165)}} alınır.	Değişken Kuralları
-Alt (iç) bloklar üst scope'taki değişkenlere {{c1::erişebilir}}, ancak dış bloklar iç blokta tanımlanan lokal değişkenlere {{c2::erişemez}}.	Scope / Faaliyet Alanı
-const ile tanımlanan sabitlerin değeri {{c1::derleme zamanında (compile-time)}} belli olmalıdır ve çalışma zamanında {{c2::değiştirilemez}}.	Sabitler (Const)
-Dinamik değişkenlerin toplamı const bir değişkene {{c1::atanamaz}}, ancak iki sabit değerin toplamı const değişkene {{c2::atanabilir}}.	Sabitler (Const)
-Değer tiplerinde new T() kullanımı veya default anahtar kelimesi ilgili tipin {{c1::varsayılan (default)}} değerini verir; int için {{c2::0}}, bool için {{c3::false}}, char için {{c4::'\0'}} atanır.	Varsayılan Değerler
-Küçük veri tipinden büyük veri tipine yapılan, veri kaybı riski olmayan otomatik dönüşümlere {{c1::bilinçsiz (implicit)}} tür dönüşümü denir.	Tür Dönüşümleri
-Büyük veri tipinden küçük veri tipine geçişte veri kaybı riski olduğundan {{c1::bilinçli (explicit)}} tür dönüşümü yapılır ve {{c2::döküm (type casting)}} kullanılır.	Tür Dönüşümleri
-double pi = 3.14; int tamSayi = (int)pi; kodunda döküm işlemi yapıldığında ondalık kısım atılır ve {{c1::veri kaybı}} yaşanır.	Type Casting
-String formundaki sayısal verileri ilgili türe dönüştürmek için türlerin {{c1::Parse()}} metodu veya {{c2::Convert}} sınıfının yöntemleri kullanılır.	Tür Dönüşümleri
+#html:false
+C#'ta konsol ekranını temizlemek için {{c1::Console.Clear()}} metodu kullanılır.	Konsol İşlemleri - Clear
+C#'ta konsolun arka plan rengini ayarlamak için {{c1::Console.BackgroundColor}} özelliği kullanılır ve buna {{c2::ConsoleColor}} enum değerleri atanır.	Konsol İşlemleri - Renk Ayarı
+C#'ta ekrana metin yazıp imleci bir alt satıra indiren metot {{c1::Console.WriteLine()}} metodudur.	Konsol İşlemleri - WriteLine
+C#'ta ekrana metin yazıp imleci aynı satırda tutan metot {{c1::Console.Write()}} metodudur.	Konsol İşlemleri - Write
+C#'ta kullanıcı Enter'a basana kadar tüm satırı string olarak okuyan metot {{c1::Console.ReadLine()}} metodudur.	Konsol İşlemleri - ReadLine
+C#'ta klavyeden basılan ilk karakterin ASCII sayısal değerini okuyan metot {{c1::Console.Read()}} metodudur.	Konsol İşlemleri - Read
+C#'ta konsol renklerini varsayılan ayarlara döndürmek için {{c1::Console.ResetColor()}} metodu kullanılır.	Konsol İşlemleri - ResetColor
+Console sınıfında metin yazma veya temizleme gibi eylemler {{c1::metot (method)}}, renk değiştirme gibi değer atamaları ise {{c2::özellik (property)}} yapısındadır.	Konsol İşlemleri - Metot vs Property
+C#'ta sınıf seviyesinde tanımlanan değişkenlere {{c1::field (alan)}} adı verilir.	Değişkenler - Field
+C#'ta süslü parantez {} ile oluşturulan iç blok (scope) içerisinden üst scope'ta tanımlı değişkenlere {{c1::erişilebilir}}.	Scope - İç Blok Erişim
+C#'ta aynı türden birden fazla değişken {{c1::virgül (,)}} karakteri ile ayrılarak tek satırda tanımlanabilir.	Değişken Tanımlama - Tek Satır
+C#'ta değeri henüz atanmamış bir yerel değişken kullanılmaya çalışıldığında {{c1::derleme hatası (CS0165)}} alınır.	Değişkenler - Atanmamış Değişken Hatası
+Bir metot veya blok içinde tanımlanan yerel değişkene o bloğun dışından {{c1::erişilemez}}.	Scope - Blok Dışı Erişim
+Sınıf seviyesinde tanımlanan bir değişkene (field) aynı sınıf içindeki farklı metotlardan {{c1::erişilebilir}}.	Scope - Sınıf Seviyesi Erişim
+C#'ta değeri bir kez atandıktan sonra çalışma zamanında (runtime) değiştirilemeyen sabitler {{c1::const}} anahtar kelimesi ile tanımlanır.	Sabitler - const Tanımı
+C#'ta const değişkenlerin değeri {{c1::derleme zamanında (compile-time)}} belli olmak zorundadır.	Sabitler - Derleme Zamanı Şartı
+Çalışma zamanında (runtime) hesaplanan dinamik değişkenlerin sonucu const bir değişkene {{c1::atanamaz}}.	Sabitler - Dinamik Atama Hatası
+C#'ta iki sabit değerin (literal) toplamı veya işleme sokulmuş hali const bir değişkene {{c1::atanabilir}}.	Sabitler - Sabit İfadeler
+Bir const değişkene sonradan yeni bir değer atanmaya çalışılırsa {{c1::derleme hatası (CS0131)}} alınır.	Sabitler - Yeniden Atama Hatası
+C#'ta değer tiplerinde (Value Type) new T() yapısı kullanıldığında değişkene ilgili türün {{c1::varsayılan (default)}} değeri atanır.	Veri Tipleri - new Kullanımı
+C#'ta int, byte, double, float ve decimal türlerinin varsayılan (default) değeri {{c1::0}}'dır.	Sayısal Türler - Default Değer
+C#'ta bool türünün varsayılan (default) değeri {{c1::false}}'tur.	bool - Default Değer
+C#'ta char türünün varsayılan (default) değeri {{c1::'\0' (null / boş karakter)}}'dır.	char - Default Değer
+Modern C#'ta açıkça tür belirtmeden bir değişkenin varsayılan değerini atamak için {{c1::default}} anahtar kelimesi kullanılır.	Veri Tipleri - default Keyword
+Veri kaybı riski olmayan durumlarda C# tarafından otomatik olarak yapılan dönüşüme {{c1::bilinçsiz (implicit)}} tür dönüşümü denir.	Tür Dönüşümleri - Bilinçsiz Dönüşüm
+Bilinçsiz (implicit) tür dönüşümü genellikle {{c1::küçük}} veri tipinden {{c2::büyük}} veri tipine doğru gerçekleşir.	Tür Dönüşümleri - Implicit Yönü
+Veri kaybı riski veya taşma ihtimali olan durumlarda geliştiricinin açıkça belirttiği dönüşüme {{c1::bilinçli (explicit)}} tür dönüşümü denir.	Tür Dönüşümleri - Bilinçli Dönüşüm
+Tür dönüştürmede (int)pi şeklinde yapılan döküm işlemine {{c1::Type Casting}} denir ve bu işlemde ondalık kısım {{c2::atılır (silinir)}}.	Tür Dönüşümleri - Type Casting
+Type Casting işleminde hedef veri tipinin kapasitesi aşılırsa {{c1::taşma (overflow)}} meydana gelir ve hatalı değer üretilir.	Tür Dönüşümleri - Taşma (Overflow)
+Metinsel bir sayısal değeri int türüne dönüştürmek için Convert sınıfının {{c1::Convert.ToInt32()}} metodu kullanılır.	Tür Dönüşümleri - Convert Sınıfı
+Özellikle string ifadeleri sayısal türlere dönüştürmek için ilgili türün {{c1::Parse()}} metodu (örneğin double.Parse()) kullanılır.	Tür Dönüşümleri - Parse Metodu
+Parse metodu ile metinden sayıya dönüşüm yapılırken sistemin {{c1::bölgesel ayarlarına (CultureInfo / nokta-virgül farkına)}} dikkat edilmesi gerekir.	Tür Dönüşümleri - CultureInfo

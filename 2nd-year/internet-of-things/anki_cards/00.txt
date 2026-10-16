@@ -1,12 +1,20 @@
 #separator:tab
-#html:true
-Bilgisayarların ve akıllı cihazların bağlandığı küresel iletişim ağına {{c1::İnternet}} denir.	Altyapı ve sistemler bütünüdür.
-Verinin doğru adrese ulaşmasını sağlayan cihazlara {{c1::Router (Yönlendirici)}} denir.	
-Web siteleri, veritabanı ve e-posta servisleri gibi verinin depolandığı birimlere {{c1::Sunucu}} denir.	
-İnsandan insana veya insan-bilgisayar etkileşimi olmadan veri transferi yapabilen sistemlere {{c1::IoT (Nesnelerin İnterneti)}} denir.	
-IoT Temel Formülü: {{c1::IoT}} = {{c2::Things}} + ({{c3::Sensors, Actuators}}) + {{c4::Internet}}	
-IoT işlem basamaklarında ilk olarak {{c1::sensörlerden veri toplanır}}, ardından {{c2::bilgiye dönüştürülür}}, sonra {{c3::yorumlanır}} ve son olarak {{c4::aksiyon alınır}}.	
-Sağlık takip senaryosunda kalp atışları {{c1::sensörde}} toplanır, ortalama hesaplanır ve {{c2::doktorun monitörüne}} iletilir.	
-Çevreden veri toplayan algılayıcı birimlere {{c1::Sensör}} denir.	
-Sensörlerden alınan verileri kablolu bağlantı ile alıp işleyerek İnternet ağına aktaran birime {{c1::Grup Kontrolörü}} denir.	
-Grup Kontrolörü ile Merkez İstasyon arasında çift yönlü veri iletişimini {{c1::İnternet}} ağı sağlar.
+#html:false
+Bilgisayarların ve akıllı cihazların bağlandığı, veri iletmeyi ve almayı sağlayan küresel iletişim ağına {{c1::İnternet}} denir.	İnternet Tanımı
+IoT kavramında fiziksel varlıklar ve nesneler için {{c1::Things (Nesneler)}} terimi kullanılır.	IoT Kavramları - Things
+İnternette verinin doğru adrese ulaşmasını sağlayan ağ cihazına {{c1::Router (Yönlendirici)}} denir.	İnternet Bileşenleri - Router
+Web siteleri, veritabanı ve e-posta servisleri gibi verilerin depolandığı birimlere {{c1::Sunucular}} denir.	İnternet Bileşenleri - Sunucu
+İnternetin temel bileşenleri: Cihazlar, {{c1::Router'lar (Yönlendiriciler)}}, İnternet Protokolleri, {{c2::Sunucular}} ve {{c3::İnternet Servis Sağlayıcıları}}'dır.	İnternet Bileşenleri
+İletişim, araştırma, navigasyon, e-devlet, bankacılık, akıllı ev sistemleri ve güvenlik kameraları {{c1::İnternet}} kullanım alanlarındandır.	İnternet Kullanım Alanları
+Fiziksel aygıtların interneti kullanarak bilgiyi gözlemledikleri, kontrol ettikleri ve koordine ettikleri ağa {{c1::IoT (Nesnelerin İnterneti)}} denir.	IoT Tanımı 1
+İnsandan insana ya da insan-bilgisayar etkileşimi olmadan bilgiyi işleyebilen cihazların ağ üzerinden veri transfer ettiği sisteme {{c1::IoT (Nesnelerin İnterneti)}} denir.	IoT Tanımı 2
+IoT sistemlerinde kullanılan temel formül: IoT = {{c1::Things}} + ({{c2::Sensors}}, {{c3::Actuators}}) + {{c4::Internet}} şeklindedir.	IoT Formülü
+IoT cihazlarına örnek olarak yazıcı, kameralar, PC, mobil cihazlar ve {{c1::drone}} verilebilir.	IoT Cihaz Örnekleri
+IoT ağ altyapısının temel özellikleri: Kendi kendini yapılandırma, {{c1::birlikte çalışabilen iletişim protokolleri}}, standartlara dayalı yapı ve {{c2::nesnelerin kimliklendirilmesi}}'dir.	IoT Ağ Altyapısı Özellikleri
+Sensörlerle algılama, haberleşme ve veri işleme yeteneğine sahip cihazların oluşturduğu küresel ağ {{c1::IoT (Nesnelerin İnterneti)}}'dir.	IoT Tanımı 4
+IoT işlem basamakları sırasıyla: 1. Sensörlerden {{c1::veri toplanır}}, 2. Cihazda/bulutta {{c2::bilgiye dönüştürülür}}, 3. Bilgi {{c3::yorumlanır}}, 4. {{c4::Aksiyon alınır}}.	IoT İşlem Basamakları
+Sağlık takip senaryosundaki veri akışı: Kalp atışları sensörde toplandı → {{c1::Ortalama kalp atış oranı hesaplandı}} → {{c2::Doktorun monitörüne iletildi}} şeklindedir.	IoT Senaryoları - Sağlık Takibi
+IoT ağ mimarisinde çevreden veri toplayan birimlere {{c1::Sensörler (Algılayıcılar)}} denir.	IoT Ağ Mimarisi - Sensör
+IoT ağ mimarisinde sensörlerden alınan veriler {{c1::kablolu bağlantı}} aracılığıyla Grup Kontrolörüne iletilir.	IoT Ağ Mimarisi - Bağlantı Türü
+IoT ağ mimarisinde verileri toplayıp işleyerek internet ağına aktaran birim {{c1::Grup Kontrolörü}}'dür.	IoT Ağ Mimarisi - Grup Kontrolörü
+IoT ağ mimarisinde Grup Kontrolörü ile Merkez İstasyon arasında {{c1::çift yönlü (↑↓)}} veri iletişimi sağlanır.	IoT Ağ Mimarisi - İletişim Yönü

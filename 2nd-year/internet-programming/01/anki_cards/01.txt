@@ -1,16 +1,24 @@
 #separator:tab
-#html:true
-Sayfa içine başka bir HTML sayfasını pencereli olarak gömmek için {{c1::&lt;iframe&gt;}} etiketi kullanılır.	IFrame Kullanımı
-Iframe etiketinde varsayılan olarak görüntülenecek dosyayı belirtmek için {{c1::src}} niteliği kullanılır.	IFrame Parametreleri
-Bir bağlantının (link) iframe içinde açılması için bağlantının target niteliğine iframe'in {{c1::name}} değeri yazılır.	IFrame ve Target İlişkisi
-HTML'de tablo oluşturmak için {{c1::&lt;table&gt;}}, satır için {{c2::&lt;tr&gt;}}, standart hücre için {{c3::&lt;td&gt;}} etiketi kullanılır.	Tablo Yapısı
-Tabloda kalın ve ortalanmış başlık hücresi oluşturmak için {{c1::&lt;th&gt;}} etiketi kullanılır.	Tablo Başlığı
-Tabloda hücreler arasındaki dış boşluğu ayarlamak için {{c1::cellspacing}} niteliği kullanılır.	Tablo Düzeni
-Tablo hücresinin kenarı ile içindeki veri arasındaki iç boşluğu ayarlamak için {{c1::cellpadding}} niteliği kullanılır.	Tablo Düzeni
-Tabloda birden fazla satırı (yukarıdan aşağıya) birleştirmek için {{c1::rowspan}} niteliği kullanılır.	Hücre Birleştirme
-Tabloda birden fazla sütunu (soldan sağa) birleştirmek için {{c1::colspan}} niteliği kullanılır.	Hücre Birleştirme
-Numaralandırılmış sıralı liste oluşturmak için {{c1::&lt;ol&gt;}} etiketi kullanılır.	Sıralı Liste (Ordered List)
-Madde işaretli (bullet point) sırasız liste oluşturmak için {{c1::&lt;ul&gt;}} etiketi kullanılır.	Sırasız Liste (Unordered List)
-Sıralı veya sırasız listelerde her bir liste elemanını tanımlamak için {{c1::&lt;li&gt;}} etiketi kullanılır.	Liste Elemanı
-İsim-açıklama / terim-tanım ilişkisi sunan tanımlama listesi için {{c1::&lt;dl&gt;}} etiketi kullanılır.	Tanımlama Listesi (Description List)
-Tanımlama listesinde terim (başlık) adı için {{c1::&lt;dt&gt;}}, terim açıklaması için {{c2::&lt;dd&gt;}} etiketi kullanılır.	Tanımlama Listesi Elemanları
+#html:false
+Sayfa içine başka bir HTML sayfasını pencereli olarak gömmek için {{c1::<iframe>}} etiketi kullanılır.	IFrame Tanımı
+{{c1::<iframe>}} etiketinde görüntülenecek dosya veya URL adresini belirtmek için {{c2::src}} niteliği kullanılır.	IFrame Kaynak Adresi
+{{c1::<iframe>}} penceresine isim vererek bağlantıların (<a>) burayı hedef almasını sağlayan nitelik {{c2::name}} niteliğidir.	IFrame Isimlendirme
+{{c1::<iframe>}} çerçevesinin genişliğini belirlemek için {{c1::width}}, yüksekliğini belirlemek için {{c2::height}} niteliği kullanılır.	IFrame Boyutlandırma
+Bir bağlantının (link) tıklandığında belirli bir iframe içerisinde açılması için {{c1::<a>}} etiketinin {{c2::target}} niteliğine iframe'in {{c3::name}} değeri yazılır.	IFrame Hedef Gösterme
+HTML'de tablo oluşturmak için {{c1::<table>}} etiketi kullanılır.	Tablo Oluşturma
+Tablo kenarlık kalınlığını belirlemek için {{c1::<table>}} etiketinde {{c2::border}} niteliği kullanılır.	Tablo Kenarlık Kalınlığı
+Klasik HTML'de tablonun arka plan rengini ayarlamak için {{c1::bgcolor}} niteliği kullanılır.	Tablo Arka Plan Rengi
+Tabloda hücreler arasındaki dış boşluğu ayarlamak için {{c1::cellspacing}} niteliği kullanılır.	Tablo Hücre Dış Boşluğu
+Tablo hücresinin kenarı ile içindeki veri arasındaki iç boşluğu ayarlamak için {{c1::cellpadding}} niteliği kullanılır.	Tablo Hücre İç Boşluğu
+Tabloda satır oluşturmak için {{c1::<tr>}} etiketi kullanılır.	Tablo Satır Etiketi
+Tabloda varsayılan olarak kalın ve ortalı başlık hücresi oluşturmak için {{c1::<th>}} etiketi kullanılır.	Tablo Başlık Hücresi
+Tabloda standart veri hücresi oluşturmak için {{c1::<td>}} etiketi kullanılır.	Tablo Veri Hücresi
+Tabloda iki veya daha fazla satırı yukarıdan aşağıya (dikey) birleştirmek için {{c1::rowspan}} niteliği kullanılır.	Tablo Satır Birleştirme
+Tabloda iki veya daha fazla sütunu soldan sağa (yatay) birleştirmek için {{c1::colspan}} niteliği kullanılır.	Tablo Sütun Birleştirme
+Tablo hücrelerinin (<td>) içine liste veya diğer HTML ögeleri {{c1::eklenebilir}}.	Tablo Hücre İçeriği
+Numaralandırılmış (1, 2, 3...) sıralı liste oluşturmak için {{c1::<ol>}} (Ordered List) etiketi kullanılır.	Sıralı Liste
+Madde işaretli (bullet point) sırasız liste oluşturmak için {{c1::<ul>}} (Unordered List) etiketi kullanılır.	Sırasız Liste
+Sıralı (<ol>) veya sırasız (<ul>) listelerde liste öğelerini tanımlamak için {{c1::<li>}} (List Item) etiketi kullanılır.	Liste Öğesi
+İsim-açıklama ilişkisi kurgulayan girintili liste yapısı oluşturmak için {{c1::<dl>}} (Description List) etiketi kullanılır.	Tanımlama Listesi
+Tanımlama listesinde (<dl>) terim / başlık adını belirtmek için {{c1::<dt>}} (Description Term) etiketi kullanılır.	Tanımlama Listesi Terim
+Tanımlama listesinde (<dl>) terimin açıklamasını / değerini belirtmek için {{c1::<dd>}} (Description Details) etiketi kullanılır.	Tanımlama Listesi Açıklama

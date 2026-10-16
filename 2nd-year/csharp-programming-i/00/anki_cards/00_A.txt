@@ -1,13 +1,16 @@
 #separator:tab
-#html:true
-Veri tipleri temel olarak {{c1::Değer Tipleri}} ve {{c2::Referans Tipleri}} olmak üzere ikiye ayrılır.	Veri Tipleri
-Tamsayı türleri ve değer tipleri belleğin {{c1::Stack}} bölgesinde saklanırken, new anahtar sözcüğü ile oluşturulan nesneler {{c2::Heap}} bölgesinde tutulur.	Bellek Bölgeleri
-Değişken tanımlama sözdizimi: {{c1::&lt;veri türü&gt; &lt;ismi&gt;}} şeklindedir.	Değişken Tanımlama
-Bir değişkeni kullanabilmek için değişkenlere bir {{c1::değer}} verilmesi zorunludur.	Değişken Kuralları
-Değişken isimlendirmede büyük-küçük harf duyarlılığı ({{c1::case-sensitivity}}) vardır ve {{c2::boşluk}} kullanılamaz.	Değişken Kuralları
-Bir değişkene ancak tanımlandığı {{c1::blok (scope)}} içerisinden erişilebilir.	Faaliyet Alanı (Scope)
-Değer tipleri belleğin {{c1::Stack}} bölgesinde, referans tipleri ise {{c2::Heap}} bölgesinde tutulur.	Bellek Tutulum İlkeleri
-Değer tiplerinde atama {{c1::kopyalama}} usulüyle yapılır; bir değişkenin değerinin değiştirilmesi diğer değişkeni {{c2::etkilemez}}.	Değer Tipi Mantığı
-Referans tiplerinde değişkenler bellekteki {{c1::aynı adresi/veriyi}} işaret ederler.	Referans Tipi Mantığı
-int i = 17; int j = i; kodunda i ve j değişkenlerinin her ikisi de {{c1::Stack}} bölgesinde bağımsız hücrelerde saklanır.	Değer Tipi Örneği
-string s = "Hello"; kodunda s değişkeninin kendisi/referansı {{c1::Stack}} bölgesinde, gösterdiği "Hello" metni ise {{c2::Heap}} bölgesinde tutulur.	Referans Tipi Örneği
+#html:false
+Veri tipleri temel olarak {{c1::Değer Tipleri}} ve {{c2::Referans Tipleri}} olmak üzere iki ana kategoriye ayrılır.	Veri Tipleri Hiyerarşisi
+Değer tipleri alt kategoride {{c1::Temel Veri Tipleri}} ve {{c2::Kullanıcı Veri Tipleri}} olmak üzere ikiye ayrılır.	Değer Tipleri
+Bellek bölgelerinden {{c1::Stack}} bölgesinde tamsayı türünden ve değer tipleri tutulur.	Bellek Bölgeleri - Stack
+Bellek bölgelerinden {{c1::Heap}} bölgesinde {{c2::new}} anahtar sözcüğü ile oluşturulan nesneler tutulur.	Bellek Bölgeleri - Heap
+Yazılımda kullanılan temel bellek bölgeleri {{c1::Stack}}, {{c2::Heap}}, {{c3::Register}}, {{c4::Static}}, {{c5::Sabit}} ve {{c6::RAM Olmayan}} bölgelerdir.	Bellek Bölgeleri Listesi
+Değişken tanımlama sözdizimi {{c1::<veri türü> <ismi>}} şeklindedir.	Değişken Tanımlama Sözdizimi
+Bir değişkeni kullanabilmek için değişkenlere bir {{c1::değer}} verilmesi zorunludur; bu kural hem değer hem referans tipleri için geçerlidir.	Değişken Tanımlama Kuralları
+Değişken isimlerinde {{c1::büyük-küçük harf duyarlılığı (case-sensitivity)}} vardır ve değişken isimlerinde {{c2::boşluk (space)}} kullanılmaz.	Değişken İsimlendirme Kuralları
+Tanımlanan bir değişkene ancak tanımlanmış olduğu {{c1::blok (scope)}} içerisinden erişilebilir.	Faaliyet Alanı (Scope)
+Değer tipleri belleğin {{c1::Stack}} bölgesinde, referans tipleri ise belleğin {{c2::Heap}} bölgesinde tutulur.	Bellek Tutulum İlkeleri
+Değer tiplerinde atama {{c1::kopyalama}} usulüyle yapılır; bir değişkenin değeri değiştirildiğinde diğer değişken bundan {{c2::etkilenmez}}.	Değer Tiplerinde Atama Mantığı
+Referans tiplerinde atama yapıldığında değişkenler bellekteki aynı {{c1::adresi/veriyi}} işaret eder.	Referans Tiplerinde Atama Mantığı
+Referans tipi değişkenlerin kendileri {{c1::Stack}} bölgesinde tutulurken, gösterdikleri nesne veya metin değerleri {{c2::Heap}} bölgesinde tutulur.	Referans Tipi Bellek Dağılımı
+Değer tipindeki değişkenlerin hem kendileri hem de sakladıkları değerler {{c1::Stack}} bölgesinde bağımsız hücrelerde tutulur.	Değer Tipi Bellek Dağılımı

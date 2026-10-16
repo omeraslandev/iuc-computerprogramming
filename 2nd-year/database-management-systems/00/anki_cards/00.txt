@@ -1,13 +1,25 @@
 #separator:tab
-#html:true
-İşlenmemiş ham gerçeklere {{c1::veri}}, anlam kazandırılmış veriye {{c2::bilgi}} denir.	Temel Kavramlar
-Dosya sisteminde veriler ayrı dosyalarda tutulurken, veritabanında veriler {{c1::merkezi}} olarak saklanır.	Dosya Sistemi vs. Veritabanı
-VTYS (Veritabanı Yönetim Sistemi), veriler üzerinde {{c1::CRUD (Create, Read, Update, Delete)}} işlemlerini gerçekleştirmek için kullanılır.	VTYS / DBMS
-Veritabanı tasarım aşamaları sırasıyla: {{c1::Gereksinim Analizi}}, {{c2::Kavramsal Tasarım}}, {{c3::Mantıksal Tasarım}} ve {{c4::Fiziksel Tasarım}}'dır.	Veritabanı Tasarım Aşamaları
-"Daha az veriyle bu işi nasıl gerçekleştiririm?" sorusu veritabanı tasarımının {{c1::Mantıksal Tasarım}} aşamasında yanıtlanır.	Veritabanı Tasarım Aşamaları
-Ağaç yapısında olan, esnek olmayan ancak basit olan veri modeli {{c1::Sıradüzensel (Hiyerarşik)}} veri modelidir.	Veri Modelleri
-Düğümler arasında çapraz ilişkiler kurulmasına olanak tanıyan veri yapısı {{c1::Ağ Veri Modeli}}'dir.	Veri Modelleri
-İlişkisel veritabanında her tablonun benzersiz bir {{c1::Birincil Anahtarı (Primary Key)}} vardır; tablolar arası ilişkiler ise {{c2::Yabancı Anahtarlar (Foreign Keys)}} ile sağlanır.	İlişkisel Veritabanı Modeli
-İlişkisel veritabanlarında fazla ve tekrarlayan verinin en aza indirilmesi işlemine {{c1::Normalleştirme (Normalization)}} denir.	İlişkisel Veritabanı Modeli
-İlişkisel veritabanlarındaki ACID prensibi {{c1::Atomiklik (Atomicity)}}, {{c2::Tutarlılık (Consistency)}}, {{c3::Yalıtım (Isolation)}} ve {{c4::Dayanıklılık (Durability)}} kavramlarından oluşur.	ACID Prensipleri
-Ses, yüksek çözünürlüklü görsel veya medya gibi satır/sütun yapısına uymayan karmaşık verileri saklamak için {{c1::Nesneye Dayalı Veritabanı Modeli}} kullanılır.	Veri Modelleri
+#html:false
+İşlenmemiş ham gerçeklere {{c1::veri}} denir.	Veritabanı Temel Kavramlar - Veri
+Anlam kazandırılmış veriye {{c1::bilgi}} denir.	Veritabanı Temel Kavramlar - Bilgi
+Verilerin düzenli, biçimli ve ilişkili şekilde saklandığı yapılara {{c1::veritabanı}} denir.	Veritabanı Temel Kavramlar
+Veritabanı büyüklüğü ve karmaşıklığı için {{c1::herhangi bir sınırlama yoktur}}.	Veritabanı Özellikleri
+Dosya sisteminde veriler ayrı dosyalarda tutulurken, veritabanında veriler {{c1::merkezi}} olarak tutulur.	Dosya Sistemi vs Veritabanı
+Dosya sisteminde veri tekrarı {{c1::fazla}} iken veritabanı veri tekrarını azaltıp {{c2::güvenlik}}, {{c3::bütünlük}} ve {{c4::kolay erişim}} sağlar.	Dosya Sistemi vs Veritabanı
+1. Nesil Veri Yönetiminde veri paylaşımı {{c1::sınırlı}} ve veri tekrarı {{c2::yüksektir}}.	Veri Yönetimi Nesilleri
+2. Nesil Veri Yönetiminin avantajları tutarlı, {{c1::güvenli}} ve erişimin {{c2::hızlı}} olması; dezavantajı ise VTYS yazılımlarının daha {{c3::karmaşık}} ve {{c4::maliyetli}} olmasıdır.	Veri Yönetimi Nesilleri
+Create, Read, Update, Delete işlemlerinin kısaltması olan ve veritabanı yönetiminde kullanılan temel işlem kümesine {{c1::CRUD}} denir.	VTYS - CRUD
+Veritabanı sisteminde veri hakkında bilgi tutan üstveriye {{c1::Meta Data (Üstveri)}} denir.	VTYS Mimarisi
+Veritabanı yapısını, veriler arası ilişkileri ve uyacağı kısıtlamaları tanımlamak için kullanılan kavramlar kümesine {{c1::veri modeli}} denir.	Veri Modeli Tanımı
+Veritabanı tasarım aşamaları sırasıyla 1. {{c1::Gereksinim Analisi}}, 2. {{c2::Kavramsal Tasarım}}, 3. {{c3::Mantıksal Tasarım}}, 4. {{c4::Fiziksel Tasarım}} aşamalarıdır.	Veritabanı Tasarım Aşamaları
+Veritabanı tasarımında gereksinimler belirlendikten sonra hangilerinin varlık, hangilerinin ilişki olacağının kararlaştırıldığı aşama {{c1::Kavramsal Tasarım}} aşamasıdır.	Tasarım Aşamaları - Kavramsal
+Veritabanı tasarımında "Daha az veriyle bu işi nasıl gerçekleştiririm?" sorusuna yanıt aranan aşama {{c1::Mantıksal Tasarım}} aşamasıdır.	Tasarım Aşamaları - Mantıksal
+Veritabanının açılıp verilerin girildiği nihai aşama {{c1::Fiziksel Tasarım}} aşamasıdır.	Tasarım Aşamaları - Fiziksel
+Ağaç hiyerarşisi yapısında olan, esnek olmayan fakat basit olan veri modeline {{c1::Sıradüzensel (Hiyerarşik) Veri Modeli}} denir.	Veri Modelleri - Hiyerarşik
+Düğümler arasında çapraz ilişkiler içeren veri modeline {{c1::Ağ Veri Modeli}} denir.	Veri Modelleri - Ağ
+Tabloların birbiriyle ilişki kurduğu veritabanı modeline {{c1::İlişkisel Veritabanı Modeli}} denir.	Veri Modelleri - İlişkisel
+İlişkisel veritabanında her tabloda bulunan ve benzersiz (unique) olan anahtara {{c1::Birincil Anahtar (Primary Key)}} denir.	İlişkisel VT - Primary Key
+İlişkisel veritabanında tablolar arası ilişki kurmayı sağlayan anahtara {{c1::Yabancı Anahtar (Foreign Key)}} denir.	İlişkisel VT - Foreign Key
+Veritabanında fazla ve tekrarlanan verinin en aza (minimum seviyeye) indirilmesi işlemine {{c1::Normalleştirme (Normalization)}} denir.	İlişkisel VT - Normalleştirme
+İlişkisel veritabanındaki ACID ilkelerinin açılımı: A = {{c1::Atomiklik (Atomicity)}}, C = {{c2::Tutarlılık (Consistency)}}, I = {{c3::Yalıtım (Isolation)}}, D = {{c4::Dayanıklılık (Durability)}} şeklindedir.	İlişkisel VT - ACID
+Ses ve görüntü gibi satır-sütun yapısında saklanamayan karmaşık verilerin saklanmasını sağlayan veri modeli {{c1::Nesneye Dayalı Veritabanı Modeli}}dir.	Veri Modelleri - Nesneye Dayalı

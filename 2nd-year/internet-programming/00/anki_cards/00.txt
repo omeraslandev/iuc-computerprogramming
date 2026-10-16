@@ -1,17 +1,33 @@
 #separator:tab
-#html:true
-HTML'de en büyük başlık etiketi {{c1::&lt;h1&gt;}}, en küçük başlık etiketi {{c2::&lt;h6&gt;}}'dır.	&lt;hx&gt; başlık serisidir.
-HTML'de paragraf oluşturmak için {{c1::&lt;p&gt;}} etiketi kullanılır.	
-HTML'de alt satıra geçmek (line break) için {{c1::&lt;br&gt;}} etiketi kullanılır.	
-Mouse imleci öğenin üzerine geldiğinde bilgi kutucuğu (tooltip) açmak için {{c1::title}} niteliği kullanılır.	
-Sayfaya yatay çizgi eklemek için {{c1::&lt;hr&gt;}} etiketi kullanılır.	
-Metni kalın yapmak için {{c1::&lt;b&gt;}} veya {{c2::&lt;strong&gt;}} etiketi kullanılır.	
-Metni italik yapmak için {{c1::&lt;i&gt;}} etiketi kullanılır.	
-Metnin altını çizili yapmak için {{c1::&lt;u&gt;}} etiketi kullanılır.	
-Matematiksel üst simge (ör. X³) yapmak için {{c1::&lt;sup&gt;}} etiketi kullanılır.	
-Kimyasal alt simge (ör. H₂O) yapmak için {{c1::&lt;sub&gt;}} etiketi kullanılır.	
-Klasik HTML'de metin boyutu, rengi ve fontu için {{c1::&lt;font&gt;}} etiketi kullanılır.	HTML5'te bunun yerine CSS kullanılır.
-&lt;font&gt; etiketinde boyut için {{c1::size}}, renk için {{c2::color}}, font ailesi için {{c3::face}} niteliği kullanılır.	
-Bağlantı (link) oluşturmak için {{c1::&lt;a&gt;}} etiketi, hedef adresi belirtmek için {{c2::href}} niteliği kullanılır.	
-Bağlantının mevcut sekmede açılması için {{c1::target="_self"}}, yeni sekmede açılması için {{c2::target="_blank"}} kullanılır.	
-Sayfa içi çapa (anchor) oluştururken hedef öğeye {{c1::id}} verilir, yönlendiren bağlantıya {{c2::#}} sembolü eklenir.	Örn: href="#baglanti"
+#html:false
+HTML belgesinin dilini belirtmek için {{c1::<html>}} etiketinde {{c2::lang}} niteliği kullanılır.	HTML Temel Yapı
+HTML sayfalarında arama motorları için anahtar kelimeler {{c1::<meta>}} etiketindeki {{c2::keywords}} niteliği ile tanımlanır.	HTML Meta Etiketleri
+HTML web sayfasının sekme başlığı {{c1::<title>}} etiketi içinde tanımlanır.	HTML Başlık Etiketi
+Modern HTML'de arka plan rengi {{c1::style="background-color: ..."}} niteliği ile belirlenir.	HTML Arka Plan Rengi
+Modern HTML öncesinde arka plan rengini ayarlamak için {{c1::bgcolor}} niteliği kullanılırdı.	HTML Arka Plan Rengi (Eski)
+HTML'de başlık oluşturmak için {{c1::<hx> (<h1>-<h6>)}} etiket serisi kullanılır.	HTML Başlıklar
+HTML başlık etiketlerinde en büyük başlık {{c1::<h1>}}, en küçük başlık ise {{c2::<h6>}} etiketidir.	HTML Başlık Seviyeleri
+HTML'de paragraf metni yazmak için {{c1::<p>}} etiketi kullanılır.	HTML Paragraf
+HTML'de alt satıra geçmek (line break) için {{c1::<br>}} etiketi kullanılır.	HTML Satır Sonu
+HTML öğelerinin üzerine fare imleciyle gelindiğinde bilgi kutucuğu (tooltip) açılmasını sağlayan nitelik {{c1::title}} niteliğidir.	HTML Tooltip
+HTML'de metni kalın (bold) yapmak için {{c1::<b>}} etiketi kullanılır.	HTML Metin Biçimlendirme
+HTML'de metni italik (eğik) yapmak için {{c1::<i>}} etiketi kullanılır.	HTML Metin Biçimlendirme
+HTML'de metnin altını çizmek (underline) için {{c1::<u>}} etiketi kullanılır.	HTML Metin Biçimlendirme
+HTML'de metni vurgulu kalın yapmak için {{c1::<strong>}} etiketi kullanılır.	HTML Metin Biçimlendirme
+HTML'de sayfaya yatay çizgi çekmek için {{c1::<hr>}} etiketi kullanılır.	HTML Yatay Çizgi
+HTML'de üslü ifadeler gibi üst simgeler oluşturmak için {{c1::<sup>}} etiketi kullanılır.	HTML Üst Simge
+HTML'de kimyasal moleküller gibi alt simgeler oluşturmak için {{c1::<sub>}} etiketi kullanılır.	HTML Alt Simge
+Bir metne aynı anda birden fazla biçimlendirme uygulamak için etiketler {{c1::iç içe}} kullanılır.	HTML İç İçe Etiketler
+Klasik HTML'de yazı tipi, renk ve boyut ayarlamak için kullanılan ancak HTML5'te yerini CSS'e bırakan etiket {{c1::<font>}} etiketidir.	HTML Font Etiketi
+HTML font etiketinde metin boyutunu ayarlamak için {{c1::size}} niteliği kullanılır.	HTML Font Boyutu
+HTML font etiketindeki size niteliği {{c1::1}} (en küçük) ile {{c2::7}} (en büyük) arasında değer alır.	HTML Font Boyut Değerleri
+HTML font etiketinde metin rengini ayarlamak için {{c1::color}} niteliği kullanılır.	HTML Font Rengi
+Font rengi tanımlanırken İngilizce renk adlarının yanı sıra {{c1::Hex kodu}} (örneğin #FF5733) da kullanılabilir.	HTML Renk Kodları
+HTML font etiketinde yazı tipini (Arial, Monospace vb.) belirlemek için {{c1::face}} niteliği kullanılır.	HTML Yazı Tipi
+Modern HTML'de sayfa içi çapa (anchor) noktası oluştururken tercih edilen nitelik {{c1::id}} niteliğidir.	HTML Çapa Noktası
+HTML'de çapa noktası tanımlamak için geçmişte id niteliğinin yanında {{c1::name}} niteliği de kullanılmaktaydı.	HTML Çapa Noktası (Eski)
+HTML'de dış veya iç bağlantılar (link) oluşturmak için {{c1::<a>}} etiketi kullanılır.	HTML Bağlantı
+HTML bağlantı etiketinde hedef adresi/URL'yi belirtmek için {{c1::href}} niteliği kullanılır.	HTML Bağlantı Adresi
+HTML bağlantılarda linkin aynı sekmede açılmasını sağlayan varsayılan target değeri {{c1::_self}} değeridir.	HTML Bağlantı Hedefi
+HTML bağlantılarda linkin yeni bir sekmede açılmasını sağlayan target değeri {{c1::_blank}} değeridir.	HTML Bağlantı Hedefi
+Sayfa içindeki bir çapa noktasına (id'ye) yönlendirme yapmak için href niteliğindeki değerin başına {{c1::# (diyez / kare)}} sembolü konur.	HTML Sayfa İçi Bağlantı
